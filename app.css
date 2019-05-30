@@ -1,3 +1,8 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1558556859-f575da01d52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+}
+
 .intro {
     text-align: center;
 }
@@ -8,3 +13,17 @@
     grid-template-rows: 50px 50px;
 }
 
+ul > li {
+    color: #6D256F;
+    border: 5px solid purple;
+    list-style: none;
+    display: inline-block;
+}
+
+p,h2:hover {
+    color: #6D256F;
+}
+
+h2::first-letter {
+    background-color: purple;
+}
